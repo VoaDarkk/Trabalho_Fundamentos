@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .tudo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; 
+        }
+
+        .musica, .musiquinha {
+            width: 300px;  
+            height: 100px;
+        }
+
+        .musica {
+            background-color: purple;
+            line-height: 100px; 
+            text-align: center; 
+            color: white;
+        }
+
+        .musiquinha {
+            display: flex;    
+            justify-content: center;
+            align-items: center;
+            background-color: purple;
+        }
+
+        audio {
+            width: 90%; 
+        }
+
+        .sobre {
+            background-color: purple;
+            color: white;
+            margin-top: 20px; 
+            padding: 10px; 
+            width: 70%; 
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .rosto {
+            background-color: white;
+            margin-top: 40px;
+            padding: 20px;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Meu nome é Victor e gosto deste tipo de música.</h1>
+
+    <div class="tudo">
+        <div class="musica">Essa é a música que eu mais escuto</div>
+
+        <div class="musiquinha">
+            <audio controls>
+                <source src="ligo.m4a">
+            </audio>
+        </div>
+    </div>
+
+    
+    <div class="sobre">
+        <p>
+            BK - Abebe Bikila Costa Santos (Rio de Janeiro, 20 de março de 1989), conhecido pelo seu nome artístico BK', é um rapper, escritor e compositor brasileiro considerado um dos nomes mais influentes do cenário do rap brasileiro.<br>
+            Em sua letra, apresenta como seus principais temas a violência policial, desigualdade, racismo, suas conquistas, farras e reviravoltas em sua vida pessoal. BK' nasceu no Rio de Janeiro, no bairro de Jacarepaguá, na zona oeste.
+        </p>
+    </div>
+
+    <div class="rosto">
+        <img src="img/baco.jpg" alt="baco.jpg"><br>
+        <p>Este é o BK</p>
+    </div>
+</body>
+</html>
